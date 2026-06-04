@@ -1,0 +1,54 @@
+# DR-LiteNet .gitignore
+
+# Dataset (large binary files — download separately)
+data/train_images/
+data/val_images/
+data/test_images/
+data/idrid/images/
+data/processed/
+
+# Experiment checkpoints (large .pth files)
+experiments/*/checkpoints/
+
+# All generated outputs
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

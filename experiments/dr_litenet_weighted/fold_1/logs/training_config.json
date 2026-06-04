@@ -1,0 +1,9 @@
+{
+  "model_name": "dr_litenet_weighted",
+  "fold": 1,
+  "num_epochs": 2,
+  "batch_size": 8,
+  "use_class_weights": true,
+  "use_handcrafted": true,
+  "seed": 42
+}

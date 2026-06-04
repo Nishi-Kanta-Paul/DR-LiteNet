@@ -1,0 +1,9 @@
+{
+  "model_name": "effb0_baseline",
+  "fold": 1,
+  "num_epochs": 2,
+  "batch_size": 8,
+  "use_class_weights": false,
+  "use_handcrafted": false,
+  "seed": 42
+}
